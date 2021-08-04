@@ -1,0 +1,25 @@
+.HeroList {
+    display: flex;
+    flex-direction: column;
+}
+
+.FilterBtn {
+    text-align: center;
+    width: 10vw;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 3rem;
+    border: none;
+    border-radius: 5rem;
+    background-image: linear-gradient(to left bottom, #fe0b35, #ff4483, #fd77c2, #e5a2eb, #d3c5fc, #bac1ea, #abbad3, #a6b1bb, #7f898f, #5b6366, #3b3f40, #1d1e1e);
+}
+
+.HeroContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}

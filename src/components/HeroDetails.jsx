@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Hero from './Hero';
 import { Link } from 'react-router-dom';
+import './HeroDetails.css';
 
 function HeroDetails(props) {
     const [name, setName] = useState();
@@ -19,9 +20,9 @@ function HeroDetails(props) {
 
     return (
         <div className='HeroDetails'>
-            <span>{name}</span>
+            <span className="HeroName">{name}</span>
             <img src={image} />
-            <Link to={{pathname: '/'}}>Go back to homepage</Link>
+            <Link to={{pathname: '/'}}><button className="HomeBtn">Go back to homepage</button></Link>
         </div>
     )
 }
