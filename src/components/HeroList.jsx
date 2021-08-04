@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios';
 import Hero from './Hero';
+import "./HeroList.css"
 
 function HeroList() {
     const [heroes, setHeroes] = useState([]);

@@ -1,0 +1,26 @@
+.Hero {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.HeroCard {
+    display: flex;
+    flex-direction: column; 
+    border: solid 2px #fc5072;
+    width: 20vw;
+}
+
+.HeroImg {
+    width: 100%;
+}
+
+.HeroCardContent{
+    max-width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #fe0b35, #ff3555, #fc5072, #f5678b, #eb7c9f, #cd7ca8, #af7ca9, #927ba1, #606784, #3d5060, #2a373c, #1d1e1e);
+    color: #F3EED9;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
