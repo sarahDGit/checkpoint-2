@@ -8,10 +8,12 @@ function Hero({hero}) {
                 <div className="HeroCardContent">
                     <h2>{hero.name}</h2>
                     <span>{hero.race} {hero.gender}</span>
-                    <h2 className="HeroAttributes">Attributes</h2>
+                <div className="HeroAttributes">
+                    <h2>Attributes</h2>
                     <span>Speed : {hero.speed}</span>
                     <span>Force : {hero.force}</span>                    
                     <span>Stamina : {hero.stamina} </span>
+                </div>
                 </div>
             </article>            
         </div>
